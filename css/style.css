@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "grafitti-font", sans-serif;
+}
+
+.banner{ 
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Users/tristanthomas/Documents/Modul293/html/Projektarbeit/Website/spider_verse_bilder/the_spot.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: scroll;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    color: #E2FCEF;
+    align-items: center;
+}
+
+.navbar{
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #E2FCEF;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #E2FCEF;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.logo{   
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.iframe{
+    display: grid;
+    place-content: center;
+    margin-top: 75px;
+    margin-bottom: 175px;
+}
+
+.content_of_footer{
+    padding-left: 20px;
+}
+
+.footer_content{
+    color: #E2FCEF;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.kontakt_of_footer{
+    justify-self: flex-end;
+    padding-left: 50px;
+    color: white;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.Form {
+    width: 260px;
+    height: 580px;
+    padding-left: 30px;
+    padding-top: 30px;
+    border-radius: 50px;
+    margin-bottom: 125px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box; /* To include padding in width/height calculation */
+    overflow: auto; /* To enable scrolling if content overflows */
+}
+
+.formular_bild{
+    border-radius: 50px;
+    display: flex;
+    padding-top: 40px;
+}
+
+img {
+    border-radius: 50px;
+}
+
+
+#plz {
+    width: 50px;
+}
+#ort {
+    width: 86px;
+}
+
+
+/*#########################################*/
+
+.banner_4{ 
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Users/tristanthomas/Documents/Modul293/html/Projektarbeit/Website/spider_verse_bilder/Earth_1610b.png);
+    background-size: cover;
+    background-position: center;
+    overflow: scroll;
+}
+
+.header_4{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.content_4{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    color: #E2FCEF;
+    align-items: center;
+}
+
+.navbar_4{
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar_4 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar_4 ul li a{
+    text-decoration: none;
+    color: #E2FCEF;
+    text-transform: uppercase;
+}
+
+.navbar_4 ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #E2FCEF;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+}
+
+.navbar_4 ul li:hover::after{
+    width: 100%;
+}
+
+.logo_4{   
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.content_of_footer_4{
+    padding-left: 20px;
+}
+
+.footer_content_4{
+    color: #E2FCEF;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.kontakt_of_footer_4{
+    justify-self: flex-end;
+    padding-left: 50px;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.main_content_4, .main_content_2_4, .main_content_3_4{
+    display: grid;
+    position: relative;
+    width: 300px;
+    height: 600px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 0px #bebebe,
+                -20px -20px 0px #ffffff;
+}
+
+.main_content_text_4, .main_content_text_2_4, .main_content_text_3_4{
+    display: grid;
+    margin-top: 37.5px;
+    margin-left: 37.5px;
+    padding-bottom: 100px;
+    padding-right: 37.5px;
+}
+
+img {
+    border-radius: 50px;
+}
+
+/*#########################################*/
+
+.banner_3{ 
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Users/tristanthomas/Documents/Modul293/html/Projektarbeit/Website/spider_verse_bilder/miguel_2099.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: scroll;
+}
+
+.header_3{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.content_3{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    color: #E2FCEF;
+    align-items: center;
+}
+
+.navbar_3{
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar_3 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar_3 ul li a{
+    text-decoration: none;
+    color: #E2FCEF;
+    text-transform: uppercase;
+}
+
+.navbar_3 ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #E2FCEF;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+}
+
+.navbar_3 ul li:hover::after{
+    width: 100%;
+}
+
+.logo_3{   
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.content_of_footer_3{
+    padding-left: 20px;
+}
+
+.footer_content_3{
+    color: #E2FCEF;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.kontakt_of_footer_3{
+    justify-self: flex-end;
+    padding-left: 50px;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.main_content_3, .main_content_2_3, .main_content_3_3{
+    display: grid;
+    position: relative;
+    width: 300px;
+    height: 600px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 0px #bebebe,
+                -20px -20px 0px #ffffff;
+}
+
+.main_content_text_3, .main_content_text_2_3, .main_content_text_3_3{
+    display: grid;
+    margin-top: 37.5px;
+    margin-left: 37.5px;
+    padding-bottom: 100px;
+    padding-right: 37.5px;
+}
+
+img {
+    border-radius: 50px;
+}
+
+/*#########################################*/
+
+.banner_2{ 
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Users/tristanthomas/Documents/Modul293/html/Projektarbeit/Website/spider_verse_bilder/Earth_42.webp);
+    background-size: cover;
+    background-position: center;
+    overflow: scroll;
+}
+
+.header_2{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.content_2{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    color: #E2FCEF;
+    align-items: center;
+}
+
+.navbar_2{
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar_2 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar_2 ul li a{
+    text-decoration: none;
+    color: #E2FCEF;
+    text-transform: uppercase;
+}
+
+.navbar_2 ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #E2FCEF;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+}
+
+.navbar_2 ul li:hover::after{
+    width: 100%;
+}
+
+.logo_2{   
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.content_of_footer_2{
+    padding-left: 20px;
+}
+
+.footer_content_2{
+    color: #E2FCEF;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.kontakt_of_footer_2{
+    justify-self: flex-end;
+    padding-left: 50px;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.main_content_2, .main_content_2_2, .main_content_3_2{
+    display: grid;
+    position: relative;
+    width: 300px;
+    height: 600px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 0px #bebebe,
+                -20px -20px 0px #ffffff;
+}
+
+.main_content_text_2, .main_content_text_2_2, .main_content_text_3_2{
+    display: grid;
+    margin-top: 37.5px;
+    margin-left: 37.5px;
+    padding-bottom: 100px;
+    padding-right: 37.5px;
+}
+
+img {
+    border-radius: 50px;
+}
